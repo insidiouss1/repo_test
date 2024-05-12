@@ -1,3 +1,5 @@
+"use client"
+ 
 export type DatosViajes = {
     Id: number,
     IdProgramado: number,
@@ -27,5 +29,6 @@ export type DatosViajes = {
     LongitudFinEntrega: number,
     PesoConfirmadoManual: number,
     Cancelado: boolean,
-    Comentario: string
+    Comentario: string,
+    UserName: string
   }
